@@ -17,6 +17,7 @@ clean-dropbox-conflicted <directory>
 # Example
 
 ```bash
+$ git clone https://github.com/miguelmota/clean-dropbox-conflicted.git
 $ cd clean-dropbox-conflicted/
 $ tree example/
 
