@@ -3,7 +3,7 @@
 var path  = require('path');
 var clean = require(path.join('../lib/clean'));
 
-var argv = process.argv.slice(1);
+var argv = process.argv.slice(2);
 
 if (!argv[0]) {
     throw new Error('Need directory argument');
