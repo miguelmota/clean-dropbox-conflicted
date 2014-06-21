@@ -2,6 +2,12 @@
 
 Recursively renames conflicted [Dropbox](https://www.dropbox.com/) files to it's original file name and replaces old files if already exists.
 
+# Install
+
+```bash
+npm install clean-dropbox-conflicted -g
+```
+
 # Usage
 
 ```bash
