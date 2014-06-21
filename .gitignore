@@ -89,3 +89,4 @@ _test
 serve
 .tmp
 .example
+reset.sh

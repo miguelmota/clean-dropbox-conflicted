@@ -1,6 +1,6 @@
 # Clean Dropbox Conflicted
 
-Recursively renames conflicted Dropbox files to it's original file name and replaces old files if already exists.
+Recursively renames conflicted [Dropbox](https://www.dropbox.com/) files to it's original file name and replaces old files if already exists.
 
 # Usage
 
