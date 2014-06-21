@@ -1,7 +1,9 @@
-var path  = require('path');
-var clean = require('./lib/clean');
+#!/usr/bin/env node
 
-var argv = process.argv.slice(2);
+var path  = require('path');
+var clean = require(path.join('../lib/clean'));
+
+var argv = process.argv.slice(1);
 
 if (!argv[0]) {
     throw new Error('Need directory argument');

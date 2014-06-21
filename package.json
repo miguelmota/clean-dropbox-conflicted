@@ -1,6 +1,6 @@
 {
   "name": "clean-dropbox-conflicted",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Clean dropbox conflicted files",
   "main": "index.js",
   "directories": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/miguelmota/clean-dropbox-conflicted",
   "bin": {
-	"clean-dropbox-conflicted": "index.js"
+	"clean-dropbox-conflicted": "bin/index.js"
   },
   "preferGlobal": "true"
 }
