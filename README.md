@@ -5,7 +5,7 @@ Recursively renames conflicted [Dropbox](https://www.dropbox.com/) files to it's
 # Usage
 
 ```bash
-node index.js <directory>
+clean-dropbox-conflicted <directory>
 ```
 
 # Example
@@ -25,7 +25,7 @@ example/
 ```
 
 ```bash
-$ node index.js example/
+$ clean-dropbox-conflicted example/
 
 /example/foo (Miguel Mota's conflicted copy 2014-06-17).txt => /example/foo.txt
 /example/sub/bar (Miguel Mota's conflicted copy 2014-06-17).txt => /example/sub/bar.txt
