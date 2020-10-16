@@ -1,15 +1,13 @@
 {
   "name": "clean-dropbox-conflicted",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Clean dropbox conflicted files",
   "main": "index.js",
   "directories": {
     "example": "example",
     "test": "test"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "nodeunit test/"
@@ -19,16 +17,25 @@
     "url": "https://github.com/miguelmota/clean-dropbox-conflicted"
   },
   "keywords": [
-    "dropbox"
+    "dropbox",
+    "conflicted",
+    "files"
   ],
-  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
-  "license": "MIT",
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/clean-dropbox-conflicted/blob/master/LICENSE"
+  },
   "bugs": {
     "url": "https://github.com/miguelmota/clean-dropbox-conflicted/issues"
   },
   "homepage": "https://github.com/miguelmota/clean-dropbox-conflicted",
   "bin": {
-	"clean-dropbox-conflicted": "bin/index.js"
+    "clean-dropbox-conflicted": "bin/index.js"
   },
-  "preferGlobal": "true"
+  "preferGlobal": true
 }
